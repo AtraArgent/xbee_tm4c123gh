@@ -1,0 +1,11 @@
+*AABCC
+
+first byte is control byte,
+
+AA is the steer degree, know as two digits.
+
+B is the brake binary value, could be '0' or '1'.
+
+CC is the speed value, know as two digits.
+
+Control bytes between the speed, brake and steer degree is't necessary cause of digits count is known. Every byte is char that's why {atoi} is used to count real values.
